@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Test Your Climate Knowledge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">Climate<span class="logo-accent">Aware</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="quiz.html" class="active nav-cta">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-hero quiz-hero">
+        <div class="page-hero-content">
+            <div class="quiz-hero-badge">Interactive Learning</div>
+            <h1 class="page-hero-title">Climate Knowledge Quiz</h1>
+            <p class="page-hero-subtitle">Test your understanding with these flip card questions</p>
+        </div>
+    </section>
+
+    <section class="quiz-intro">
+        <div class="container">
+            <div class="quiz-instructions">
+                <h2>How It Works</h2>
+                <p>Click or tap each card to reveal the correct answer. Test your climate knowledge!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quiz-section">
+        <video class="quiz-bg-video" autoplay muted loop playsinline>
+            <source src="waterreflection.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="quiz-grid">
+                
+                <div class="flip-card">
+                    <input type="checkbox" id="card1" class="flip-checkbox">
+                    <label for="card1" class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-number">Question 1</div>
+                            <h3>What is the primary greenhouse gas responsible for recent climate change?</h3>
+                            <div class="card-options">
+                                <div class="option">A) Oxygen</div>
+                                <div class="option">B) Carbon Dioxide</div>
+                                <div class="option">C) Nitrogen</div>
+                            </div>
+                            <div class="flip-prompt">Click to reveal answer</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="answer-badge">Answer</div>
+                            <h3>B) Carbon Dioxide (CO₂)</h3>
+                            <p>Carbon dioxide is the primary greenhouse gas emitted through human activities, mainly from burning fossil fuels. It traps heat in the atmosphere and is the main driver of current global warming.</p>
+                            <div class="flip-prompt">Click to see question</div>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="flip-card">
+                    <input type="checkbox" id="card2" class="flip-checkbox">
+                    <label for="card2" class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-number">Question 2</div>
+                            <h3>Which human activity contributes the MOST to greenhouse gas emissions?</h3>
+                            <div class="card-options">
+                                <div class="option">A) Agriculture</div>
+                                <div class="option">B) Burning fossil fuels</div>
+                                <div class="option">C) Deforestation</div>
+                            </div>
+                            <div class="flip-prompt">Click to reveal answer</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="answer-badge">Answer</div>
+                            <h3>B) Burning fossil fuels for energy</h3>
+                            <p>Burning coal, oil, and natural gas for electricity, heat, and transportation accounts for approximately 75% of global greenhouse gas emissions, making it the largest contributor to climate change.</p>
+                            <div class="flip-prompt">Click to see question</div>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="flip-card">
+                    <input type="checkbox" id="card3" class="flip-checkbox">
+                    <label for="card3" class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-number">Question 3</div>
+                            <h3>What is one major effect of climate change on oceans?</h3>
+                            <div class="card-options">
+                                <div class="option">A) Ocean acidification</div>
+                                <div class="option">B) Increased fish populations</div>
+                                <div class="option">C) Colder temperatures</div>
+                            </div>
+                            <div class="flip-prompt">Click to reveal answer</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="answer-badge">Answer</div>
+                            <h3>A) Ocean acidification and coral bleaching</h3>
+                            <p>As oceans absorb excess CO₂ from the atmosphere, they become more acidic. This, combined with warming waters, causes coral bleaching and threatens marine ecosystems that billions of people depend on.</p>
+                            <div class="flip-prompt">Click to see question</div>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="flip-card">
+                    <input type="checkbox" id="card4" class="flip-checkbox">
+                    <label for="card4" class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-number">Question 4</div>
+                            <h3>Which renewable energy source uses wind turbines?</h3>
+                            <div class="card-options">
+                                <div class="option">A) Solar power</div>
+                                <div class="option">B) Wind energy</div>
+                                <div class="option">C) Geothermal energy</div>
+                            </div>
+                            <div class="flip-prompt">Click to reveal answer</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="answer-badge">Answer</div>
+                            <h3>B) Wind energy</h3>
+                            <p>Wind energy harnesses the power of moving air through wind turbines to generate clean electricity. It's one of the fastest-growing renewable energy sources and produces zero emissions during operation.</p>
+                            <div class="flip-prompt">Click to see question</div>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="flip-card">
+                    <input type="checkbox" id="card5" class="flip-checkbox">
+                    <label for="card5" class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-number">Question 5</div>
+                            <h3>What can individuals do to help reduce their carbon footprint?</h3>
+                            <div class="card-options">
+                                <div class="option">A) Use more plastics</div>
+                                <div class="option">B) Drive alone more</div>
+                                <div class="option">C) Reduce energy use</div>
+                            </div>
+                            <div class="flip-prompt">Click to reveal answer</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="answer-badge">Answer</div>
+                            <h3>C) Reduce energy consumption and use public transport</h3>
+                            <p>Individual actions like improving home energy efficiency, using public transportation, eating plant-based meals, and reducing consumption all contribute to lowering personal carbon footprints and fighting climate change.</p>
+                            <div class="flip-prompt">Click to see question</div>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="flip-card">
+                    <input type="checkbox" id="card6" class="flip-checkbox">
+                    <label for="card6" class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-number">Question 6</div>
+                            <h3>What percentage of climate scientists agree that climate change is human-caused?</h3>
+                            <div class="card-options">
+                                <div class="option">A) 50%</div>
+                                <div class="option">B) 75%</div>
+                                <div class="option">C) 97%</div>
+                            </div>
+                            <div class="flip-prompt">Click to reveal answer</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="answer-badge">Answer</div>
+                            <h3>C) 97%</h3>
+                            <p>Studies show that 97% of actively publishing climate scientists agree that climate-warming trends over the past century are extremely likely due to human activities. This represents overwhelming scientific consensus.</p>
+                            <div class="flip-prompt">Click to see question</div>
+                        </div>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="quiz-cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Want to Learn More?</h2>
+                <p>Explore our comprehensive guide to climate change solutions</p>
+                <a href="solutions.html" class="btn btn-primary">View Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">ClimateAware</h3>
+                    <p class="footer-text">An educational project exploring the intersection of science, technology, and society in addressing climate change.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="overview.html">Overview</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="quiz.html">Quiz</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Climate Change STS Project | Created for Educational Purposes</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
